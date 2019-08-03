@@ -10,6 +10,8 @@ namespace WebAPI.Data
         public static void Initialize(MyAppContext context)
         {
             context.Database.EnsureCreated();
+
+
         }
     }
 }

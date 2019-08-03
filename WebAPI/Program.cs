@@ -24,7 +24,7 @@ namespace WebAPI
                 try
                 {
                     var context = services.GetRequiredService<MyAppContext>();
-
+                    DbInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {
